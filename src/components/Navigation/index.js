@@ -1,12 +1,15 @@
 import react from "react";
 
-const Navigation = () => {
+const Navigation = ({categories, currentCategory, setCurrentCategory}) => {
     return (
         <div>
-            <li>
-                <h3>Projects</h3>
-                <h3>Contact Me</h3>
-            </li>
+            {categories.map((category, i )=> (
+            <li
+                className={` ${
+                    currentCategory.name === category.name && `navActive`
+                }`}>
+                    <a onClick={ () => {setCurrentCategory(category)}}>{category.name}</a>
+            </li>))}
         </div>
     )
 }

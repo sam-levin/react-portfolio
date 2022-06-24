@@ -2,9 +2,10 @@ import react from "react";
 
 const Footer = () => {
     return (
-        <div>
-        <h3>Thanks for checking it out!</h3>
-        <a>Githhub</a>
+        <div className="footer">
+            <a>Githhub</a>
+            <a>LinkedIn</a>
+            <a>Instagram</a>
         </div>
     )
 }
