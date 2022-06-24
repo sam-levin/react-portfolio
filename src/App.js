@@ -33,14 +33,14 @@ function App() {
 
   return (
     <div>
-      <div>
-        <Header></Header>
-      </div>
-        <Navigation
+      <div className='flex-row align-center'>
+      <Header></Header>
+      <Navigation
           categories={categories}
           currentCategory={currentCategory}
           setCurrentCategory={setCurrentCategory}
         ></Navigation>
+      </div>
       <main>
         <Component></Component>
       </main>

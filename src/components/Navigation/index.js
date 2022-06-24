@@ -2,10 +2,10 @@ import react from "react";
 
 const Navigation = ({categories, currentCategory, setCurrentCategory}) => {
     return (
-        <div>
+        <div className="flex-row flex-auto">
             {categories.map((category, i )=> (
             <li
-                className={` ${
+                className={` flex-row flex-auto mx-2 ${
                     currentCategory.name === category.name && `navActive`
                 }`}>
                     <a onClick={ () => {setCurrentCategory(category)}}>{category.name}</a>

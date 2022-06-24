@@ -16,7 +16,7 @@ const Header = () => {
       ];
 
     return (
-        <header>
+        <header className="flex-auto">
         <h2>
           <a href="/">
             Sam Levin
