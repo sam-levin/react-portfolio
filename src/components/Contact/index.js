@@ -36,6 +36,9 @@ function Contact() {
     return (
         <section className="padding-left contact-page">
             <h3>Contact Me</h3>
+            <p>Enter your info and any questions or comments you have and I'll get back to you as soon as possible!</p>
+            <br></br>
+
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>

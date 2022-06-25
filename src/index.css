@@ -112,6 +112,10 @@ textarea {
   flex-wrap: wrap;
 }
 
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
 .align-center {
   align-items: center;
 }
