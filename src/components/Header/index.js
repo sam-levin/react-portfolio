@@ -4,7 +4,7 @@ const Header = () => {
 
     return (
         <header className="flex-auto">
-        <h2>
+        <h2 className="center">
           <a href="/">
             Sam Levin
           </a>

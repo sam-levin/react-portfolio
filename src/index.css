@@ -121,6 +121,10 @@ textarea {
   justify-content: space-between;
 }
 
+.center {
+  justify-content: center;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -173,7 +177,11 @@ textarea {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
 }
-
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 .card {
   width: 25%;
   text-align: center;

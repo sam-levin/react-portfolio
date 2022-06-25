@@ -93,3 +93,10 @@ a:hover {
   color: #4c7299;
   transition: 1s;
 }
+
+.card {
+  border-radius: 10px;
+  background-color:  white;
+  padding: 20px;
+  margin: 10px;
+}
