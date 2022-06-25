@@ -1,3 +1,15 @@
+:root {
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+  --background: white;
+  --spacegray: #e0e2db;
+  --ash: #b8bdb5;
+  --timberwolf: #d2d4c8;
+  --candyPink: #dd7373
+}
+
+
 .App {
   text-align: center;
 }
@@ -37,9 +49,16 @@
   }
 }
 
+Header {
+  color: var(--candyPink);
+}
+
 .footer {
   padding: 10px;
-  background-color: antiquewhite;
+  background-color: var(--ash);
+}
+h2{
+  padding: 20px;
 }
 
 h1,
@@ -52,6 +71,14 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+}
+
+.padding-left{
+  padding-left: 40px;
+}
+
+main {
+  padding: 20px;
 }
 
 h1 {
@@ -84,19 +111,26 @@ p {
 }
 
 a {
-  color: var();
+  color: inherit;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: ;
 }
 
 a:hover {
-  color: #4c7299;
-  transition: 1s;
+  color: var(--candyPink);
 }
 
 .card {
   border-radius: 10px;
-  background-color:  white;
+  background-color:  var(--timberwolf);
   padding: 20px;
   margin: 10px;
+}
+
+input{
+  border: 1px var(--ash);
+}
+
+.contact-page input{
+  border: #282c34;
 }

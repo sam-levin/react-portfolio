@@ -2,12 +2,14 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
+  --background: #e0e2db;
+  --ash: #b8bdb5;
+  --timberwolf: #d2d4c8;
 }
 
 body {
   margin: 0;
-  background-color: #fff5e9;
+  background-color: var(--background);
   font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -37,7 +39,7 @@ button {
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .5rem;
-  border: none;
+  border: var(--ash);
   outline: none;
   cursor: pointer;
   margin: 0 1px;
@@ -68,14 +70,14 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--ash);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  border: 1px solid black;
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -200,7 +202,7 @@ textarea {
 	left: 0;
 	overflow: auto;
 	position: fixed;
-	right: 0;
+	right: 0; 
 	top: 0;
 	z-index: 1;
 }

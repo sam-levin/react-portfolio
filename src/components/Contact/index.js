@@ -34,8 +34,8 @@ function Contact() {
         console.log(formState);
       }
     return (
-        <section>
-            <h1>Contact Me</h1>
+        <section className="padding-left contact-page">
+            <h3>Contact Me</h3>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
