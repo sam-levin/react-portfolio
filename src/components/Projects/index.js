@@ -5,9 +5,22 @@ import weather from '../../assets/images/portfolio/weather.jpg'
 import budget from '../../assets/images/portfolio/budget.jpg'
 import friends from '../../assets/images/portfolio/friends.jpg'
 import library from '../../assets/images/portfolio/library.jpg'
+import plelp from '../../assets/images/portfolio/plelp.jpg'
 
 const Projects = () => {
     const projectList = [
+        {
+            name:'Plelp',
+            text: 'Full Stack MERN Application',
+            github: 'https://github.com/sam-levin/plelp',
+            deployedLink: 'https://intense-beach-35555.herokuapp.com/',
+            style: {
+                backgroundImage: `url(${plelp})`,
+                backgroundSize: "cover"  ,
+                opacity: .7
+            
+            }
+        },
         {
             name:'Weather API',
             text: 'Third Party APIs',
